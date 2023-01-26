@@ -35,7 +35,6 @@ console.log(5 + 6);
 ```
 ### window.print()
 - Method called in the browser to print content of current window
--
 ```HTML
 <button onclick="window.print()">Print this page</button>
 ```
