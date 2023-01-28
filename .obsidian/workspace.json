@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Data types & Methods.md",
+                "file": "Javascript/General notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Data types & Methods.md",
+                "file": "Javascript/General notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Data types & Methods.md",
+                "file": "Javascript/General notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Data types & Methods.md"
+                "file": "Javascript/General notes.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "65d39db5a5e3924e",
   "lastOpenFiles": [
-    "Javascript/Functions.md",
     "Javascript/Data types & Methods.md",
+    "Javascript/Functions.md",
     "sortspec.md",
     "Javascript/General notes.md",
     "Stats/Homeworks/homework_1.md",

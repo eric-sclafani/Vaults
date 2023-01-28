@@ -9,7 +9,9 @@ Below is my goal:
 - A `javascript` program is a series of statements that get executed to interact with a webpage (HTML & CSS)
 - Statements are separated by `semicolons` ;
 - `camelCase` is the standard naming scheme
+
 ---
+
 # Code blocks
 Javascript statements can be grouped together in `code blocks` using curly braces `{}`
 ```js
