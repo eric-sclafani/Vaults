@@ -35,11 +35,22 @@ The three keywords for defining variables are `var`, `let`, and `const`. They ha
 ```js
 const price1 = 5;  
 const price2 = 6;  
-let total = price1 + price2;
+let total = price1 + price2;```
+- Variables can be declared spanning multiple lines:
+```js
+let person = "John Doe",  
+    carName = "Volvo",  
+    price = 200;
+```
+
+## Undefined
+Variables declared without an explicit value will have the `undefined` value
+```js
+let carName;
 ```
 
 ---
 # Comments
 - Single line comment start with `//`
 - Multiline comments start with `/*`, end with `*/`
-----
+---

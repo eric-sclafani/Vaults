@@ -5,12 +5,12 @@ sorting-spec: |
  sortspec
  README
  Javascript
- "Stats"
+ Stats
+ assets
  
 
  target-folder: Javascript
  General notes
  Functions
- /folders
- > a-z
+ Data types & Methods
 ---
