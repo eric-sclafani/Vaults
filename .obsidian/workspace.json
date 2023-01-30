@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/General notes.md",
+                "file": "Javascript/Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/General notes.md",
+                "file": "Javascript/Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/General notes.md",
+                "file": "Javascript/Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/General notes.md"
+                "file": "Javascript/Objects.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "65d39db5a5e3924e",
   "lastOpenFiles": [
-    "Javascript/Data types & Methods.md",
-    "Javascript/Functions.md",
-    "sortspec.md",
+    "Javascript/Data types.md",
+    "Javascript/Objects.md",
     "Javascript/General notes.md",
+    "sortspec.md",
+    "Javascript/Functions.md",
     "Stats/Homeworks/homework_1.md",
     "Excalidraw/Drawing 2023-01-26 13.47.09.excalidraw.md",
     "assets/goal.jpg",
     "README.md",
-    "Javscript notes/Functions/Examples.md",
-    "innerHTML().md"
+    "Javscript notes/Functions/Examples.md"
   ]
 }

@@ -1,12 +1,12 @@
 ----
-## getElementbyId()
+## document.getElementById()
 - Accesses an HTML element by an **id**
 ```js
 // retrieves HTML element with the id "demo"
 document.getElementById("demo"); 
 ```
 ----
-##  .innerHTML()
+##  document.innerHTML()
 - Writes into an HTML element
 ```js
 // changes "demo" HTML element content to "Hello, world!"

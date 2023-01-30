@@ -12,5 +12,6 @@ sorting-spec: |
  target-folder: Javascript
  General notes
  Functions
- Data types & Methods
+ Data types
+ Objects
 ---
