@@ -8,7 +8,24 @@ typeof("Hello, world!") // 'String'
 # Primitives
 ## String
 
-
+### Methods
+- `String length`
+- `String slice()`
+- `String substring()`
+- `String substr()`
+- `String replace()`
+- `String replaceAll()`
+- `String toUpperCase()`
+- `String toLowerCase()`
+- `String concat()`
+- `String trim()`
+- `String trimStart()`
+- `String trimEnd()`
+- `String padStart()`
+- `String padEnd()`
+- `String charAt()`
+- `String charCodeAt()`
+- `String split()`
 ## Number  
 All numbers are stored as `demimals`, but can be written with or without decimal places:
 ```js
@@ -42,8 +59,6 @@ let bus = undefined;    // Value is undefined, type is undefined
 ```
 ## Null
 ## Symbol
-
-
 # Non-primitives
 ## [[Objects]]
 
