@@ -10,8 +10,8 @@ sorting-spec: |
  
 
  target-folder: Javascript
- General notes
+ generalNotes
+ dataTypes
  Functions
- Data types
  Objects
 ---
