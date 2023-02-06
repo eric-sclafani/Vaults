@@ -2,11 +2,13 @@
 sorting-spec: |
 
  target-folder: .
+ Excalidraw
+ assets
  sortspec
  README
  Javascript
- Stats
- assets
+ Maths
+ plotly
  
 
  target-folder: Javascript

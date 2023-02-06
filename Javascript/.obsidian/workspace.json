@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "be3a8d00c8179a2c",
+    "id": "af402b9b13b60133",
     "type": "split",
     "children": [
       {
-        "id": "b80849f6f19589a5",
+        "id": "11c9feeaa341d6da",
         "type": "tabs",
         "children": [
           {
-            "id": "5ad4bd9b9b6dfb16",
+            "id": "84b66296964aa597",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Probability.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,25 +21,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9d485e74e15e1271",
+    "id": "54aa6ba801c3411d",
     "type": "split",
     "children": [
       {
-        "id": "ffcdaa14000e29c5",
+        "id": "1539b96f2e10d15e",
         "type": "tabs",
         "children": [
           {
-            "id": "bd707e741c3dcfa8",
+            "id": "935eceb676dd742c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "0bd231a909465d02",
+            "id": "145b6bcf469a440d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "a27dd21454cfbd19",
+            "id": "16f288ccc90dda63",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "26088399af123295",
+    "id": "d8be483d492ea3ed",
     "type": "split",
     "children": [
       {
-        "id": "0360cab67be7f64f",
+        "id": "7ee6ba61f0634d75",
         "type": "tabs",
         "children": [
           {
-            "id": "9cce151d05b739ec",
+            "id": "527bcd17286116f7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "dd73bf086135bafe",
+            "id": "d4986951184c4fbe",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5e9fba3d63d1c43d",
+            "id": "4c75cd99610d8eb3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "543540eabf0bc2f7",
+            "id": "01e6ac0a6c0381d8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Maths/Probability.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,22 +135,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "custom-sort:Toggle custom sorting": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "5ad4bd9b9b6dfb16",
-  "lastOpenFiles": [
-    "Excalidraw/cond_prob.md",
-    "Maths/Probability.md",
-    "sortspec.md",
-    "Javascript/Events.md",
-    "Javascript/Functions.md",
-    "Javascript/generalNotes.md",
-    "Javascript/sortspec.md",
-    "Javascript/dataTypes.md",
-    "Javascript/Objects.md",
-    "README.md"
-  ]
+  "active": "84b66296964aa597",
+  "lastOpenFiles": []
 }
