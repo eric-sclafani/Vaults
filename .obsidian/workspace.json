@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ad4bd9b9b6dfb16",
+            "id": "7ba1992224fcb3fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Probability.md",
+                "file": "plotly/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Probability.md",
+                "file": "plotly/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Probability.md",
+                "file": "plotly/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/Probability.md"
+                "file": "plotly/Notes.md"
               }
             }
           }
@@ -148,17 +148,17 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "5ad4bd9b9b6dfb16",
+  "active": "7ba1992224fcb3fb",
   "lastOpenFiles": [
-    "Excalidraw/cond_prob.md",
     "Maths/Probability.md",
+    "plotly/Notes.md",
+    "README.md",
+    "assets/Excalidraw/cond_prob.md",
     "sortspec.md",
     "Javascript/Events.md",
     "Javascript/Functions.md",
     "Javascript/generalNotes.md",
     "Javascript/sortspec.md",
-    "Javascript/dataTypes.md",
-    "Javascript/Objects.md",
-    "README.md"
+    "Javascript/dataTypes.md"
   ]
 }

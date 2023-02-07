@@ -22,7 +22,9 @@ https://www.youtube.com/@DrTrefor
 # Bayes theorem
 
 `If` $P(A|B) = \dfrac{P(A \cap B)}{P(B)}$ , `then`   $P(B|A) = \dfrac{P(B \cap A)}{P(A)}$. In this case, $P(A \cap B)$ and $P(B \cap A)$ are equivalent. 
+
 `Therefore:`
+
 $P(A|B) = \dfrac{P(B|A)*P(A)}{P(B)}$
 
 # Joint probability
