@@ -23,14 +23,18 @@ app.layout = html.Div([
 ])
 
 @app.callback(
+	Output(component_id='my-output', component_property='children'),
 	Input(component_id='my-input', component_property='value'),
-	Output(component_id='my-output', component_property='children'))
-	
+	)
 def update_output_div(input_value):
 	return f'Output: {input_value}'
 ```
 - In the above code:
 	- the input is the "`value`" property of the component that has the ID "`my-input`"
 	- The output is the "`children`" property of the component with the ID "`my-output`"
-
+	- **`NOTE`**: the `Input` has to go directly above the decorated function, followed by the `Output`
 - Whenever an `input property` changes, the function that the callback wraps will get called automatically
+- The `component_id` and `component_property` keywords are optional (there are only two arguments for each of those objects).
+- Notice how we don't set a value for the `children` property of the `my-output` component in the `layout`:
+	- When the Dash app starts, it **automatically** `calls all of the callbacks` with the **initial values of the input components** in order to **populate the initial state of the output components**
+- **This is important:** _your callbacks should never modify variables outside of their scope_
