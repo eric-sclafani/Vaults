@@ -1,14 +1,14 @@
 # Variables? or Features? or attributes?
- The term`feature` is often used synonomously with `variable`and `attribute`. They all mean the same thing: some kind of measurement attained from a 
+ The term `feature` is often used synonomously with `variable` and `attribute`. They all mean the same thing: some kind of measurement attained from a 
 
 # Population vs Sample space
 
 ## **Population**
 
 A **population** is an *entire* collection of people, objects, or other things of interest that you want to record meaningful **features** from. 
-However, we often *do not* have access to *the entire population* of whatever we're measuring. This is intuitive when you think about it like this:
+However, we often *do not* have access to *the entire population* of whatever we're measuring.
 
-	Imagine I want to interview American high school students about their grades. In this case, the population would be every single high school student in the US, which is in the tens of millions. And I don't have time for that!
+```Imagine I want to interview American high school students about their grades. In this case, the population would be  every single high school student` in the US, which is in the tens of millions. And I don't have time for that!```
 
 Instead, I 
 # Measures of Central Tendency
