@@ -1,4 +1,18 @@
-# Variables? or Features? or attributes?
+# What's the deal with data?
+
+As humans, our insatiable desire to `learn`, make `inferences` about things, and `predict future events` requires knowledge about the world. 
+
+This is where **data** comes in. **Data** is information you collect in order to learn, make conclusions, and perform experiments to answer questions you have. For example:
+
+```
+Say I want to know what the gender wage gap is in the US. I would collect the following data from a large amount of male and female workers:
+1.  
+```
+
+
+
+## **Types of data**
+
  The term `feature` is often used synonomously with `variable` and `attribute`. They all mean the same thing: some kind of measurement attained from a 
 
 # Population vs Sample space
@@ -6,11 +20,15 @@
 ## **Population**
 
 A **population** is an *entire* collection of people, objects, or other things of interest that you want to record meaningful **features** from. 
-However, we often *do not* have access to *the entire population* of whatever we're measuring.
+However, we often *do not* have access to *the entire population* of whatever we're measuring. For example:
 
-```Imagine I want to interview American high school students about their grades. In this case, the population would be  every single high school student` in the US, which is in the tens of millions. And I don't have time for that!```
+```
+Imagine I want to predict an American high school student's GPA given certain features like hours studied, test grades, number of classes skipped, etc. In this case, the population is every single high school student in the US, which is over ten million. Interviewing every student here, however, is not plausible. There are too many students, and I don't have time for that!
+```
 
 Instead, I 
+
+INCLUDE GRAPHIC HERE OF POPULATION VS SAMPLES
 # Measures of Central Tendency
 
 ## **Mean**
