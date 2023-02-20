@@ -1,5 +1,4 @@
 Types are `dynamic` in javascript.  There are 7 `primitive` data types
-
 The `typeof` operator returns the datatype of an element
 ```js
 typeof("Hello, world!") // 'String'
@@ -15,6 +14,32 @@ let length = text.length; //26
 - Note:
 	-   If no character is found, [ ] returns undefined, while charAt() returns an empty string.
 	-   It is read only. str[0] = "A" gives no error (but does not work!)
+## Template literals
+By defining a string using `backticks`, this allows you to do multiple things:
+
+1. Multiline strings`
+```js
+let text =  
+`The quick  
+brown fox  
+jumps over  
+the lazy dog`;
+```
+2. Interpolation - embedding variables and expressions inside the string
+```js
+let firstName = "John";  
+let lastName = "Doe";  
+let text = `Welcome ${firstName}, ${lastName}!`;
+
+let price = 10;  
+let VAT = 0.25;  
+let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+```
+3. Use double or single quotes inside the string
+```js
+let text = `He's often called "Johnny"`;
+```
+
 ## Methods
 ***(Italicized = optional parameter)***
 
@@ -109,20 +134,35 @@ text.indexOf("locate");// 7
 text.lastIndexOf("locate");// 21
 ```
 ---
--  `.search`() - almost the same thing as `indexOf`, except it can also take regex
+-  `.search`(substring or pattern) - almost the same thing as `indexOf`, except it can also take regex
 ```js
 let str = "Please locate where 'locate' occurs!";  
 str.search(/locate/); // 7
 ```
--  `.match`() - 
--  `.matchAll`() - 
--  `.includes`() - 
--  `.startsWith`() - 
--  `.endsWith`() - 
-
-
-
-
+-  `.match`(substring or pattern) - returns an array containing the matched results
+```js
+let text = "The rain in SPAIN stays mainly in the plain"; 
+const myArr = text.match(/ain/gi); // ain,AIN,ain,ain
+```
+-  `.matchAll`(string or pattern) -  returns an iterator containing the results of matching a string against a string
+```js
+const iterator = text.matchAll("Cats"); //returns an iterator
+```
+-  `.includes`(substring) - returns true if a string contains a specified value
+```js
+let text = "Hello world, welcome to the universe.";
+text.includes("world") // true
+```
+-  `.startsWith`(substring, *start_index*) - returns true if a string **starts** with a specified value.
+```js
+let text = "Hello world, welcome to the universe.";  
+text.startsWith("Hello"); // true
+```
+-  `.endsWith`(substring, *start_index*) - returns true if a string **ends** with a specified value
+```js
+let text = "John Doe";  
+text.endsWith("Doe"); //true
+```
 
 ---
 ## Number  
@@ -131,11 +171,17 @@ All numbers are stored as `demimals`, but can be written with or without decimal
 typeof(45) // 'number'
 typeof(32.21) // 'number'
 ```
-Really **large** or **small** numbers can be written using `exponential notation`:
+Really **large** or **small** numbers can be written using `scientific (exponential) notation`:
 ```js
 let y = 123e5;    // 12300000  
 let z = 123e-5;   // 0.00123
 ```
+JavaScript numbers are *always* stored as `double precision floating point numbers`, following the international IEEE 754 standard.
+
+- **NaN** - indicates a non-valid number
+- `isNaN`(arg) - returns whether a given arg is **NaN** or not
+
+
 ## Bigint
 Bigint's are for numbers too large to represent with javascript's normal `Number` type
 ```js
@@ -158,3 +204,9 @@ let bus = undefined;    // Value is undefined, type is undefined
 ```
 ## Null
 ## Symbol
+
+
+%dddd%
+
+
+

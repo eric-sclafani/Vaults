@@ -7,13 +7,16 @@ sorting-spec: |
  sortspec
  README
  Javascript
- Maths
- plotly
+ Math
  
 
  target-folder: Javascript
  generalNotes
  dataTypes
- Functions
- Objects
+ functions
+ objects
+ events
+
+ target-folder: Math
+ 
 ---
