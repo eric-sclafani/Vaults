@@ -4,12 +4,10 @@ As humans, our insatiable desire to `learn`, make `inferences` about things, and
 
 This is where **data** comes in. **Data** is information you collect in order to learn, make conclusions, and perform experiments to answer questions you have. For example:
 
-```
-Say I want to know what the gender wage gap is in the US. I would collect the following data from a large amount of male and female workers:
-1.  
-```
+``` Say I want to know what the gender wage gap is in the US. I could collect the following data from a large amount of men and women working at companies: age, hourly/monthly/annual salary, years spent at company, education, etc. I could then plot this data to look for trends. Below is a histogram looking at age and monthly salary, categorized by gender```
 
-
+![[wage_gap.jpg | 300x400  ]]
+Image credit: [census.gov](https://www.census.gov/library/stories/2022/01/gender-pay-gap-widens-as-women-age.html)
 
 ## **Types of data**
 
@@ -22,9 +20,7 @@ Say I want to know what the gender wage gap is in the US. I would collect the fo
 A **population** is an *entire* collection of people, objects, or other things of interest that you want to record meaningful **features** from. 
 However, we often *do not* have access to *the entire population* of whatever we're measuring. For example:
 
-```
-Imagine I want to predict an American high school student's GPA given certain features like hours studied, test grades, number of classes skipped, etc. In this case, the population is every single high school student in the US, which is over ten million. Interviewing every student here, however, is not plausible. There are too many students, and I don't have time for that!
-```
+```Imagine I want to predict an American high school student's GPA given certain features like hours studied, test grades, number of classes skipped, etc. In this case, the population is every single high school student in the US, which is over ten million. Interviewing every student here, however, is not plausible. There are too many students, and I don't have time for that!```
 
 Instead, I 
 

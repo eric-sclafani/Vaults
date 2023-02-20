@@ -8,7 +8,7 @@ https://www.youtube.com/@DrTrefor
 - `Conditional probability` is the probability of an event **A** occuring given event **B** already occured:
 
   $P(A|B) = \dfrac{P(A \cap B)}{P(B)}$, A.k.a, probability of **A** `and` **B** occuring amonst all the possibilities of **B** occuring
-  ![[cond_prob]]
+  ![[Excalidraw/cond_prob]]
 
 ## Examples
 
