@@ -1,19 +1,22 @@
 # What's the deal with data?
 
-As humans, our insatiable desire to `learn`, make `inferences` about things, and `predict future events` requires knowledge about the world. 
+As humans, our insatiable desire to `learn`, make `inferences` about things, and `predict future events` requires **knowledge** about the world. This knowledge is where **data** comes in.
 
-This is where **data** comes in. **Data** is information you collect in order to learn, make conclusions, and perform experiments to answer questions you have. For example:
+**Data** is the information that enables you to do all of those things mentioned above. For example:
 
-``` Say I want to know what the gender wage gap is in the US. I could collect the following data from a large amount of men and women working at companies: age, hourly/monthly/annual salary, years spent at company, education, etc. I could then plot this data to look for trends. Below is a histogram looking at age and monthly salary, categorized by gender```
+``` Say I want to learn what the gender wage gap is in the US. I could collect the following data from a large amount of people working at companies: gender, age, hourly/monthly/annual salary, years spent at company, education, etc. I could then plot this data to look for trends. I could also try to predict someone's salary based off this data.```
 
+Below is a histogram I found looking at age and monthly salary, categorized by gender. Can you notice certain patterns from this data?
 ![[wage_gap.jpg | 300x400  ]]
 Image credit: [census.gov](https://www.census.gov/library/stories/2022/01/gender-pay-gap-widens-as-women-age.html)
 
 ## **Types of data**
 
- The term `feature` is often used synonomously with `variable` and `attribute`. They all mean the same thing: some kind of measurement attained from a 
+ When you collect data from a source, you are attaining distinct characteristics that define the group you are measuring from. These characteristics are called `variables`. This term is used synonomously with `feature` and `attribute`. In the example above, `gender, age, salary, etc...` would all be different variables. 
+ 
+However, not all data is the same. Data can have varying properties that 
 
-# Population vs Sample space
+# Population vs Sample 
 
 ## **Population**
 
